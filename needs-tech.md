@@ -10,5 +10,5 @@ that runs the visit-counter
 Scenario: Reconcile counts if the sensor is offline for a while
 
   Given server was online before turning offline and contains data recovery software 
-  When server turns offline after it was online
+  When server turns offline
   Then compare the new value of counts with data recovery value
