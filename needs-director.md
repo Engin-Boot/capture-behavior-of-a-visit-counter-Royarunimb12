@@ -8,6 +8,6 @@ Scenario: Show patient visits during working days and holidays
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
-  Given
-  When
-  Then
+  Given hospital is functional
+  When hospital issued id card to medical personnel
+  Then increment medical personnel count for each card issued
