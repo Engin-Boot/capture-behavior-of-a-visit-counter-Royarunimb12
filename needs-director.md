@@ -3,7 +3,7 @@
 Scenario: Show patient visits during working days and holidays
 
   Given hospital is functional
-  When patient id card is issued
+  When hospital issued id card to patient
   Then increment patient count for each card issued
 
 Scenario: Compute parking slots to reserve for visiting specialists
