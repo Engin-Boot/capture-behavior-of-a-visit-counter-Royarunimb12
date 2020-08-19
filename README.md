@@ -1,11 +1,6 @@
-# Collections Exercise
+# Visit count Exercise
+This project works out the features of a
+visit-counting software, called the 'Visit-counter'.
 
-## Intention
-
-This program intends to remove strings containing 'oggy' from a list of strings.
-
-## Method
-
-The code now works
 
 
