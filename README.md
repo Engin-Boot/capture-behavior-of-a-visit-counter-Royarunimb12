@@ -34,6 +34,4 @@ Capture each scenario as:
 - event (When...)
 - effect (Then...)
 
-Place features given to each stakeholder in the corresponding file.
 
-As always, avoid passive voice :)
